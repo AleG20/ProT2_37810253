@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Principal</title>
+    <link href="assets/css/bootstrap2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/miestilo.css" />
+
+    <style>
+        .carousel-item img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            /* Ajusta la imagen para cubrir el contenedor */
+        }
+        
+        .card-img-top {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo" /> Tecno Movil
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="nav justify-content-end" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio
+                <span class="visually-hidden">(current)</span>
+              </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Catalogo</a
+              >
+
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#"></a>
+                        <a class="dropdown-item" href="construccion.html">Celulares</a>
+                        <a class="dropdown-item" href="construccion.html">Accesorios</a>
+                        <a class="dropdown-item" href="construccion.html">Tablet</a>
+            </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="acerca.html">Acerca de</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Iniciar Sesion</a>
+            </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-sm-2" type="search" placeholder="Ingrese aqui" />
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              Buscar
+            </button>
+            </form>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Quienes Somos</h1>
+            <p class="lead">Conoce más sobre Tecno Movil</p>
+            <hr class="my-4" />
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <img src="assets/img/quienes.jpeg" class="img-fluid rounded mb-4" alt="Nuestra tienda" />
+            </div>
+            <div class="col-md-6">
+                <h2>Nuestra Historia</h2>
+                <p>
+                    Tecno Movil es una tienda especializada en la venta de celulares y accesorios. Desde nuestros inicios en 2010, hemos crecido hasta convertirnos en uno de los principales proveedores de dispositivos móviles en la región. Nuestra misión es ofrecer productos
+                    de alta calidad y un servicio excepcional a nuestros clientes.
+                </p>
+                <h2>Nuestro Compromiso</h2>
+                <p>
+                    Nos comprometemos a brindar una experiencia de compra satisfactoria y segura. Nuestro equipo de expertos está siempre disponible para ayudarte a encontrar el celular que mejor se adapte a tus necesidades. Valoramos la confianza de nuestros clientes y
+                    trabajamos constantemente para superar sus expectativas.
+                </p>
+                <h2>Contacto</h2>
+                <p>
+                    Si tienes alguna pregunta o necesitas asistencia, no dudes en contactarnos a través de nuestro
+                    <a href="contacto.html">formulario de contacto</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2 class="text-center mb-4">Nuestro Equipo</h2>
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/jose.jpeg" class="card-img-top" alt="Directivo 1" />
+                    <div class="card-body">
+                        <h5 class="card-title">Juan Pérez</h5>
+                        <p class="card-text">CEO y Fundador</p>
+                        <p class="card-text">
+                            Juan ha liderado Tecno Movil desde su fundación, guiando la empresa hacia el éxito con su visión y pasión por la tecnología.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/ana.jpeg" class="card-img-top" alt="Directivo 2" />
+                    <div class="card-body">
+                        <h5 class="card-title">Ana Gómez</h5>
+                        <p class="card-text">Directora de Ventas</p>
+                        <p class="card-text">
+                            Ana se encarga de las estrategias de ventas y ha sido fundamental en el crecimiento de nuestra base de clientes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/carlos.jpg" class="card-img-top img-fluid" alt="Directivo 3" />
+                    <div class="card-body">
+                        <h5 class="card-title">Carlos López</h5>
+                        <p class="card-text">Jefe de Tecnología</p>
+                        <p class="card-text">
+                            Carlos lidera el equipo técnico, asegurando que nuestros productos y servicios sean de la más alta calidad.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid text-center text-white py-4 bg-primary" data-bs-theme="dark">
+        <div class="row">
+            <div class="col-md-4 mb-4 mb-md-0">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contacto.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#pregunta">Preguntas Frecuentes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="quienessomos.html"
+                >Quienes Somos</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0">
+          <p class="display-6">Tecno Movil</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Seguinos en nuestras REDES SOCIALES</h5>
+          <div class="footer-icons">
+            <a href="https://www.facebook.com" target="_blank">
+              <img
+                src="assets/img/facebook.png"
+                alt="Facebook"
+                class="footer-icon"
+              />
+            </a>
+                        <a href="https://www.twitter.com" target="_blank">
+                            <img src="assets/img/x.png" alt="Twitter" class="footer-icon" />
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="assets/img/insta.png" alt="Instagram" class="footer-icon" />
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank">
+                            <img src="assets/img/liken.png" alt="LinkedIn" class="footer-icon" />
+                        </a>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/jquery.js"></script>
+</body>
+
+</html>

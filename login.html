@@ -26,53 +26,66 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo" /> Tecno Movil
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-            <div class="nav justify-content-end" id="navbarColor01">
-                <ul class="navbar-nav me-auto">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Inicio
-                <span class="visually-hidden">(current)</span>
-              </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Catalogo</a
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a
               >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Catalogo
+              </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="construccion.html">Celulares</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="construccion.html"
+                    >Accesorios</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="construccion.html">Tablet</a>
+                            </li>
 
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#"></a>
-                        <a class="dropdown-item" href="construccion.html">Celulares</a>
-                        <a class="dropdown-item" href="construccion.html">Accesorios</a>
-                        <a class="dropdown-item" href="construccion.html">Tablet</a>
-            </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="acerca.html">Acerca de</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="login.html">Iniciar Sesion</a>
-            </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control me-sm-2" type="search" placeholder="Ingrese aqui" />
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acerca.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Iniciar Sesión</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-sm-2" type="search" placeholder="Ingrese aqui" />
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">
               Buscar
             </button>
-            </form>
-        </div>
+                </form>
+            </div>
         </div>
     </nav>
-
     <!-- Login Form -->
     <div class="container">
         <div class="row justify-content-center">
